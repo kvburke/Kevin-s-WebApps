@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    background-color: lightblue;
+}
+
+#chart_div {
+    width: 250px; 
+    float: right;
+    height: 275px;
+    margin-right: 50px;
+}
+
+#chart2_div {
+    width: 250px; 
+    float: right;
+    height: 200px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}

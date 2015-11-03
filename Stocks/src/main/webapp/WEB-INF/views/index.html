@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>Wealth Management Alpha 1.0</title>
+<head>
+<script type="text/javascript"src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript"src="logic.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script>
+
+google.load('visualization', '1.0', {'packages':['corechart']});
+google.setOnLoadCallback(drawChart);
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="chart_div"></div> 
+
+    <p>Order Stock Here</p>
+    <p>Symbol</p>
+    <input type="text" id="symbol" name="symbol">
+    <p>Price</p>
+    <input type="text" id="price" name="price">
+    <p>Month (1-12)</p>
+    <input type="text" id="monthpurchased" name="monthpurchased">
+    <button id="submit">Order</button>
+    
+    
+    
+
+
+
+<br></br>
+<br></br>
+<div id="chart2_div"></div>
+   
+    <p>Get Stock Range</p>
+    <p>Symbol</p>
+    <input type="text" id="symbolrange" name="symbolrange">
+    <p>Start Month (1-12)</p>
+    <input type="text" id="startmonth" name="startmonth">
+    <p>End Month (1-12)</p>
+    <input type="text" id="endmonth" name="endmonth">
+    <button id="getrange">Get Range</button>
+    <button id="reset">Reset</button>
+   
+
+    
+</body>
+
+</html>
